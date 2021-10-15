@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+/* Menu */
+.menu-superior{
+    background-color: #0000FF;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.menu-superior ul {
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.menu-superior ul li{
+
+}
+.menu-superior ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#logo{
+    color: white;
+    font-family: Impact;
+}
+#search{
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+    border: none;
+    outline: 0;
+    padding: 10px;
+}
+#iSearch{
+    padding: 5px;
+    background-color: white;
+    color: black;
+
+}
+
+#btn {
+    padding: 7px;
+    border-radius: 20px;
+    background-color: white;
+    color: #0000FF;
+    font-family: impact;
+}
+/* Fim menu */
+/* Destaques */
+.destaque {
+    border: solid 2px gray;
+    width: 100%;
+    background-image: url(../img/1609_ADS_Desk_Plano_Motorola_BG.png);
+}
+
+.content-destaque{
+    color: white;
+    font-family: impact;
+    font-size: 50px;
+    display: flex;
+    text-shadow: 5px 2px rgba(0, 0, 255, 0.37);
+}
+
+
+.infos-destaque{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-destaque img{
+    background-color: white;
+    border-radius: 200px;
+    width: 250px;
+    box-shadow: 2px 2px 20px black;
+}
+
+/* Fim destaques  */
+
+/* Produtos */
+
+.produtos{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+
+    justify-content: center;
+}
+
+.produtos-box{
+    cursor: pointer;
+    margin: 20px 10px;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px #cccccc;
+    position: relative;
+    animation: all 2s;
+}
+.produtos-box:hover{
+    transform: scale(0.95);
+}
+.produtos-box form{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.produtos-box form input[type="submit"]{
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
+.produtos-img{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-bottom: solid 2px #707070;
+}
+.produtos-img img{
+
+    width: 100%;
+    height: 100%;
+}
+.nome{
+    color: #707070;
+    font-family: Arial;
+    margin-top: 10px;
+    text-align: center;
+}
+.valores{
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+.valores h1{
+    font-family: impact;
+}
+.valores h3{
+    font-family: Arial;
+    color: #707070;
+}
+/* Fim produtos */
+
+/* Login */
+
+.login{
+    max-width: 700px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-bottom: solid 2px #707070;
+}
+
+.login h1{
+    font-family: Arial;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+}
+.login i{
+    margin-right: 10px;
+}
+
+.input{
+    color: #707070;
+    border-radius: 5px;
+}
+
+.inputs{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login form{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.inputs label{
+    color: #434343;
+}
+
+.inputs input{
+    border: solid 2px #707070;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    outline: 0;
+}
+.login form input[type=submit]{
+    margin: auto;
+    padding:10px 40px;
+    background-color: #0000FF;
+    color: white;
+    font-family: impact;
+    max-width: 130px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+/* Fim login */
+
+/* Cadastrar */
+
+.radios{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.radio{
+
+}
+/* Fim cadastrar */
+
+/* Remover */
+.produto-remove{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px gray;
+}
+.infos-remove{
+    display: flex;
+    width: 300px;
+}
+
+.produto-remove img{
+    width: 80px;
+    height: 70px;
+    min-width: 80px;
+}
+.produto-remove i{
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;   
+
+}
+
+/*Fim remover*/
+
+/* COmprar */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content #head{
+    width: 100%;
+    color: #707070;
+    font-size: 50px;
+    font-family: impact;
+    padding-top: 100px;
+    padding-left: 15px;
+
+}
+
+.content .img{
+    height: 400px;
+    margin-right: 50px;
+    width: 700px;
+}
+
+.content .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.infos-pagamento{
+    height: 400px;
+
+    width: 500px;
+}
+.infos-pagamento h1{
+    color: #707070;
+    margin-left: 15px;
+    font-size: 30px;
+}
+.input-comprar{
+    display: flex;
+    flex-wrap: nowrap;
+
+    max-width: 400px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.input-comprar i{
+    padding: 10px;
+}
+.input-comprar input{
+    border: none;
+    width: 90%;
+    outline: 0;
+    padding: 10px;
+
+}
+
+.endereco{
+  width: 500px;
+}
+
+.endereco h1{
+    color: #707070;
+    margin-left: 15px;
+}
+
+.payment {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.payment select{
+    padding: 5px;
+    outline: 0;
+}
+.payment label{
+    color: #707070;
+    font-family: impact;
+}
+
+.infos-pagamento input[type=submit]{
+    background-color: blue;
+    color: white;
+    font-family: impact;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+/*Painel usuario*/
+
+.infos-user{
+    width: 100%;
+    margin-top: 30px;
+}
+.infos-user td{
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+}
+.infos-user th{
+    border-bottom: solid 2px gray;
+}
+.infos-user td img{
+    width: 50px;
+    height: 20px;
+}
+.infos-user input[type=submit]{
+    background-color: red !important;
+    border: none;
+    padding: 4px !important;
+    margin: unset !important;
+    position: relative;
+    bottom: 35px;
+
+}
+
+@media screen and (max-width: 1197px){
+    .text h1{
+        font-size: 20px;
+    }
+    .inputs input{
+      width: 400px;
+    }
+}
+@media screen and (min-width: 1197px){
+    #search{
+        width: 500px;
+    }
+}
